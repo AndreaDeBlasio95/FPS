@@ -10,8 +10,13 @@ public class PlayerHealth : CharacterHealth
     public override void TakeDamage(float damage)
     {
         base.TakeDamage(damage);                            // Call the base class method to handle damage calculation
-        uiController.UpdateShield(CurrentShield);           // Update shield value in the UI
-        uiController.UpdateHealth(CurrentHealth, true);     // Update health in the UI with damage indication
+
+        if (CurrentHealth > 0)
+        {
+            uiController.UpdateShield(CurrentShield);           // Update shield value in the UI
+            uiController.UpdateHealth(CurrentHealth, true);     // Update health in the UI with damage indication
+        }
+        
     }
 
     // Override the Heal method to update the health bar in the UI when healed

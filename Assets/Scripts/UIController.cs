@@ -40,6 +40,7 @@ public class UIController : MonoBehaviour
         LoadAmmo();
     }
 
+    // The bool isDamage indicates if the player was hit by a bullet or a Power Up Heal
     public void UpdateHealth (float currentHealth, bool isDamage)
     {
         healthSlider.fillAmount = currentHealth / playerHealth.MaxHealth;
