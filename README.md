@@ -63,4 +63,4 @@
 - **Description**: This directory contains all Scriptable Object files which are used for managing reusable data like player health, enemy configurations, and other adjustable game parameters.
 
 ### Scalability Note
-- While the current setup includes all levels in a single scene for simplicity, the architecture supports scalable implementations. Levels can be instantiated in an infinite loop or expanded in any direction, leveraging a list within LevelManager for managing spawn positions or iterating through similarly sized rooms using vector multiplication.
+- While the current setup includes all levels in a single scene for simplicity, the architecture supports scalable implementations. Levels can be instantiated in an infinite loop or expanded in any direction, leveraging a list within LevelManager for managing spawn positions or iterating through similarly sized rooms using Vector3 multiplication by index.
