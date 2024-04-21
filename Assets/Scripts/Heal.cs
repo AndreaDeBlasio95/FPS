@@ -1,7 +1,7 @@
 using UnityEngine;
 
-// In game Power Up that increases Shield to the Player
-public class Shield : MonoBehaviour
+// In game Power Up that Heal the Player
+public class Heal : MonoBehaviour
 {
     [SerializeField] private float value;
 
@@ -10,7 +10,7 @@ public class Shield : MonoBehaviour
         if (other.gameObject.CompareTag("Player"))
         {
             PlayerHealth _player = other.gameObject.GetComponent<PlayerHealth>();
-            _player.RechargeShield(value);
+            _player.Heal(value);
             Destroy(gameObject);
         }
     }

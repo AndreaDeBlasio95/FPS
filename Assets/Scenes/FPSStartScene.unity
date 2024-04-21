@@ -106090,7 +106090,7 @@ GameObject:
   - component: {fileID: 3629286073410071164}
   - component: {fileID: 3629286073410071165}
   m_Layer: 0
-  m_Name: Health
+  m_Name: Heal
   m_TagString: Health
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -106200,10 +106200,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 3629286073410071162}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 318d18a5e95414148b2a47d7f7aff390, type: 3}
+  m_Script: {fileID: 11500000, guid: e8c295532d7cd4c2ca7040a854209c4a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  value: 30
+  value: 0
 --- !u!33 &3703019377800751388
 MeshFilter:
   m_ObjectHideFlags: 0
