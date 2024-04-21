@@ -1,7 +1,4 @@
-## ReadMe Documentation for Unity Game Project
-
-### Overview
-This documentation provides a comprehensive overview of the structure and core components of a Unity game project, aimed at facilitating understanding and potential modification by advanced Unity developers or contributors. The game is designed with a full scene setup that includes all levels and the player character from the start.
+## ReadMe Documentation for Unity FPS Task
 
 ### Scene Setup
 - **Initial Composition**: The scene is pre-populated with all levels and the player character, ready for gameplay.
