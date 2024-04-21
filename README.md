@@ -67,5 +67,3 @@ This documentation provides a comprehensive overview of the structure and core c
 
 ### Scalability Note
 - While the current setup includes all levels in a single scene for simplicity, the architecture supports scalable implementations. Levels can be instantiated in an infinite loop or expanded in any direction, leveraging a list within LevelManager for managing spawn positions or iterating through similarly sized rooms using vector multiplication.
-
-This documentation underscores a modular, scalable approach to game development using Unity, providing a robust framework for future expansions and enhancements.
