@@ -1,6 +1,6 @@
 ## ReadMe Documentation for Unity FPS Task
 
-## Requirement: Unity 2022.3.19f1 <Metal>
+### Requirement: Unity 2022.3.19f1 <Metal>
 
 ### Scene Setup
 - **Initial Composition**: The scene is pre-populated with all levels and the player character, ready for gameplay.
