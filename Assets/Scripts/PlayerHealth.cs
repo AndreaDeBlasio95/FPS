@@ -35,6 +35,7 @@ public class PlayerHealth : CharacterHealth
         {
             CanTakeDamage = false;                          // Prevent further damage if player is dead
 
+            gameObject.tag = "Untagged";
             // Trigger game over sequence via the UI
             uiController.EnableGameOver();
         }
