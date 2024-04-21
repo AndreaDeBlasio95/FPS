@@ -106203,7 +106203,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8c295532d7cd4c2ca7040a854209c4a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  value: 0
+  value: 30
 --- !u!33 &3703019377800751388
 MeshFilter:
   m_ObjectHideFlags: 0
